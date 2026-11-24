@@ -10,8 +10,9 @@ int main() {
     Challenge* ChallengeThree = new Three;
     Challenge* ChallengeTwo = new Two;
     
+    cout << "CHALLENGE 2:" << endl;
     ChallengeTwo->Run();
-    cout << endl;
+    cout << endl << "CHALLENGE 3:" << endl;
     ChallengeThree->Run();
     
     delete ChallengeThree;
