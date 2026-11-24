@@ -12,10 +12,10 @@ void Two::Run()
     //read the notes
     for (int q = 0; q < quiz; q++)
     {
-        cout << "insert " << quiz << "question notes " << ": ";
-        for (int a = 0; a < students; a++)
+        cout << "Insert five students notes for quiz " << q + 1 << ":\n";
+        for (int s = 0; s < students; s++)
         {
-            cin >> notes[q][a];
+            cin >> notes[q][s];
         }
     }
     
@@ -30,7 +30,7 @@ void Two::Run()
             addition += notes[q][a];
         }
         cout << "Total points of this student " << (a + 1) << ": " << addition << endl;
-        cout << "Total points of this student " << (a + 1) << ": " << (addition / quiz) << endl;
+        cout << "Average points of this student " << (a + 1) << ": " << (addition / quiz) << endl;
     }
     
     //calculate per questions (lines)
