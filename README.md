@@ -1,6 +1,6 @@
-# CMakeProject
+# SS Eleven Projects
 
-A C++ project using CMake build system.
+A C++ project to "Streetsville Seconday School, Mississauga - ON" using CMake build system.
 
 ## Requirements
 
