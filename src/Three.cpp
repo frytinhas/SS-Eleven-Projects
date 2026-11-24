@@ -6,6 +6,7 @@
 
 void Three::Run()
 {
+    cout << "Please enter " << SIZE << " digits below:" << endl;
     int numbers[SIZE];
     for (int i = 0; i < SIZE; i++)
     {
