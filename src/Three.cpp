@@ -22,6 +22,7 @@ void Three::Run()
         while (left < right)
         {
             const int temp = *left;
+            // If right be less than left, so swap values and warn that has changes
             if (*right < *left)
             {
                 bHasChanges = true;
@@ -29,6 +30,7 @@ void Three::Run()
                 *right = temp;
                 left++;
             }
+            // When right be equal left and left dont be greater than max size, move left to right and move right to end
             if (--right == left && left < &numbers[SIZE - 1])
             {
                 left++;
