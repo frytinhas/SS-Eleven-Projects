@@ -1,6 +1,6 @@
 #pragma once
 
-class Three_cpp
+class Three
 {
 public:
     
