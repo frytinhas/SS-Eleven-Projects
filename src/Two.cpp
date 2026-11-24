@@ -12,7 +12,7 @@ void Two::Run()
     //read the notes
     for (int q = 0; q < quiz; q++)
     {
-        cout << "questions " << (q + 1) << ": ";
+        cout << "insert " << quiz << "question notes " << ": ";
         for (int a = 0; a < students; a++)
         {
             cin >> notes[q][a];
