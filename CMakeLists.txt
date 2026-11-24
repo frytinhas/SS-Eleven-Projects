@@ -9,4 +9,6 @@ add_executable(CMakeProject
         src/Challenge.cpp
         src/Two.cpp
         src/Three.cpp
+        src/Three.h
+        src/Two.h
 )

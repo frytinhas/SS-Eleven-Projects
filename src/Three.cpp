@@ -1,6 +1,6 @@
 #include "Three.h"
 
-string Three::Run()
+void Three::Run()
 {
-    return "";
+    
 }

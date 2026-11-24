@@ -4,5 +4,5 @@
 class Two : public Challenge
 {
 public:
-    virtual string Run() override;
+    virtual void Run() override;
 };

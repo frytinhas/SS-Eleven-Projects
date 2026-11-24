@@ -10,7 +10,11 @@ int main() {
     Challenge* ChallengeThree = new Three;
     Challenge* ChallengeTwo = new Two;
     
-    cout << endl << ChallengeThree->Run() << endl;
-    cout << endl << ChallengeTwo->Run();
+    ChallengeTwo->Run();
+    cout << endl;
+    ChallengeThree->Run();
+    
+    delete ChallengeThree;
+    delete ChallengeTwo;
     return 0;
 }

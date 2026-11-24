@@ -4,5 +4,5 @@
 class Three : public Challenge
 {
 public:
-    virtual string Run() override;
+    virtual void Run() override;
 };

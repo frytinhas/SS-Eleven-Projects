@@ -6,5 +6,5 @@ class Challenge
 {
 public:
     virtual ~Challenge() = default;
-    virtual string Run() = 0;
+    virtual void Run() = 0;
 };

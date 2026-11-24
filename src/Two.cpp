@@ -1,6 +1,6 @@
 #include "Two.h"
 
-string Two::Run()
+void Two::Run()
 {
-    return "";
+    
 }
