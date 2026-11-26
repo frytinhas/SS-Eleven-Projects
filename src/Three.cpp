@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <ostream>
-#define SIZE 10
+#define SIZE 5
 
-void Three::Run()
+void three::run()
 {
     cout << "Please enter " << SIZE << " digits below:" << endl;
     int numbers[SIZE];

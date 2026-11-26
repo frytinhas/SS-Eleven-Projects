@@ -1,21 +1,27 @@
 #include <iostream>
 
 #include "Challenge.h"
+#include "Four.h"
 #include "Three.h"
 #include "Two.h"
 
 using namespace std;
 int main() {
+    challenge* current_challenge = new two;
     
-    Challenge* ChallengeThree = new Three;
-    Challenge* ChallengeTwo = new Two;
+    cout << "/// CHALLENGE 2 ///" << endl;
+    current_challenge->run();
+    delete current_challenge;
     
-    cout << "CHALLENGE 2:" << endl;
-    ChallengeTwo->Run();
-    cout << endl << "CHALLENGE 3:" << endl;
-    ChallengeThree->Run();
+    current_challenge = new three;
+    cout << endl << "/// CHALLENGE 3 ///" << endl;
+    current_challenge->run();
+    delete current_challenge;
     
-    delete ChallengeThree;
-    delete ChallengeTwo;
+    current_challenge = new four;
+    cout << endl << "/// CHALLENGE 4 ///" << endl;
+    current_challenge->run();
+    delete current_challenge;
+    
     return 0;
 }

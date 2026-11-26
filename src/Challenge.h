@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-class Challenge
+class challenge
 {
 public:
-    virtual ~Challenge() = default;
-    virtual void Run() = 0;
+    virtual ~challenge() = default;
+    virtual void run() = 0;
 };

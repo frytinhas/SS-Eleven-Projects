@@ -3,16 +3,16 @@
 #include <iostream>
 #include <ostream>
 
-void Two::Run()
+void two::run()
 {
-    const int quiz = 4;
-    const int students = 5;
+    constexpr int quiz = 2;
+    constexpr int students = 3;
     double notes[quiz][students];
     
     //read the notes
     for (int q = 0; q < quiz; q++)
     {
-        cout << "Insert five students notes for quiz " << q + 1 << ":\n";
+        cout << "Insert " << students << " students notes for quiz " << q + 1 << ":\n";
         for (int s = 0; s < students; s++)
         {
             cin >> notes[q][s];

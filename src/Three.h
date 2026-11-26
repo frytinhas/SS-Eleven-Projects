@@ -1,8 +1,8 @@
 #pragma once
 #include "Challenge.h"
 
-class Three : public Challenge
+class three : public challenge
 {
 public:
-    virtual void Run() override;
+    virtual void run() override;
 };
